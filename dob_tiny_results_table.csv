@@ -1,3 +1,3 @@
-system,accuracy,precision_yes,recall_yes,f1_yes,hallucination_rate,n_eval
-baseline_single_model (R1 Llama),,0.0,0.0,0.0,0.0112,0
-review_board_majority_vote (R2 Llama+Qwen+Gemma),,0.0,0.0,0.0,0.011,0
+system,accuracy,f1_macro,f1_weighted,n_eval
+baseline_single_model (R1 Llama),0.6429144921718185,0.5260580089540569,0.6436878238704202,4982
+review_board_arbiter (R2 Llama; R1 Llama+Qwen+Gemma context),0.6762214983713355,0.5714730257409006,0.6889678082905828,4605
